@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --manga-ink: #111116;
+  --manga-paper: #fffcf0;
+  --manga-halftone: #e8e2cd;
+  --shonen-yellow: #ffde00;
+  --shonen-orange: #ff5500;
+  --shonen-red: #ff1f4b;
+  --shonen-blue: #00b4d8;
+  --shonen-cyan: #00f0ff;
+  --shonen-purple: #7209b7;
+  --shonen-green: #06d6a0;
+}
+
+body {
+  background-color: var(--manga-paper);
+  background-image: radial-gradient(circle, #c8c1a8 1.35px, transparent 1.35px);
+  background-size: 16px 16px;
+  color: var(--manga-ink);
+  font-family: "Comic Neue", "Segoe UI", sans-serif;
+  min-height: 100vh;
+}
+
+.font-bangers {
+  font-family: "Bangers", impact, sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.font-mochiy {
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+.comic-card {
+  background: #ffffff;
+  border: 3.5px solid #111116;
+  box-shadow: 6px 6px 0px #111116;
+  border-radius: 14px;
+}
+
+.comic-card-yellow {
+  background: #fff9db;
+  border: 3.5px solid #111116;
+  box-shadow: 6px 6px 0px #111116;
+  border-radius: 14px;
+}
+
+.comic-btn {
+  border: 3px solid #111116;
+  box-shadow: 4px 4px 0px #111116;
+  transition: all 0.12s ease;
+}
+
+.comic-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0px #111116;
+}
+
+.comic-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #111116;
+}
+
+.comic-input {
+  border: 3px solid #111116;
+  box-shadow: 3px 3px 0px #111116;
+  background: #ffffff;
+  font-weight: 700;
+}
+
+.comic-input:focus {
+  outline: none;
+  background: #fffef5;
+  box-shadow: 4px 4px 0px #ff5500;
+}
+
+.droid-embed {
+  background: #111214;
+  border-left: 5px solid #00f0ff;
+  border-top: 3px solid #111116;
+  border-right: 3px solid #111116;
+  border-bottom: 3px solid #111116;
+  box-shadow: 7px 7px 0px #111116;
+  color: #dbdee1;
+  font-family: "gg sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  border-radius: 10px;
+}
